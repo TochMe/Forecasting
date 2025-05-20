@@ -72,7 +72,7 @@ pip install streamlit
 
 ---
 
-### (Opsional) Menggunakan Virtual Environment
+### Menggunakan Virtual Environment
 
 Disarankan menggunakan **virtual environment** agar instalasi library terisolasi dari sistem utama.
 
