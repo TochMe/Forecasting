@@ -1,22 +1,31 @@
 # Forecasting
-Deskripsi
+### Deskripsi
+
 Ini adalah website dashboard yang dibuat sebagai bagian dari proyek skripsi mahasiswa BINUS University. Website ini dibangun menggunakan Python dan Streamlit.
 
-⚙️ Cara Menjalankan
-1. Download semua file project ini ke komputer Anda.
+### ⚙️ Cara Menjalankan
 
-2. Buka folder project ini menggunakan Visual Studio Code (VSC).
+1. **Download** semua file project ini ke komputer Anda.
 
-Pastikan Anda sudah menginstal:
-- Python (disarankan versi 3.10 atau lebih baru)
-- Streamlit (pip install streamlit)
-- Plotly dan library pendukung lain jika diperlukan
+2. **Buka folder** project ini menggunakan **Visual Studio Code (VSC)**.
 
-Jalankan perintah berikut di terminal VSC:
-"streamlit run app.py"
+3. Pastikan Anda sudah menginstal:
 
-Jika perintah streamlit tidak dikenali, coba gunakan:
-"python -m streamlit run app.py"
+   * Python (disarankan versi 3.10 atau lebih baru)
+   * Streamlit (`pip install streamlit`)
+   * Plotly dan library pendukung lain jika diperlukan
+
+4. Jalankan perintah berikut di terminal VSC:
+
+```bash
+streamlit run app.py
+```
+
+Jika perintah `streamlit` tidak dikenali, coba gunakan:
+
+```bash
+python -m streamlit run app.py
+```
 
 Jika belum menginstall streamlit :
 ### 🛠️ Instalasi Streamlit
