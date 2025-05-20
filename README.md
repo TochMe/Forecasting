@@ -30,13 +30,7 @@ Bagus! Kamu bisa mencantumkan **dependensi (library)** yang digunakan di README 
 
 ---
 
-### ✅ Cara 1: Tambahkan daftar dependensi di bagian README (manual)
-
-Tambahkan bagian seperti ini:
-
----
-
-### 📦 Library yang Digunakan
+###  Library yang Digunakan
 
 Project ini menggunakan beberapa library Python berikut:
 
@@ -79,7 +73,7 @@ pip install streamlit
 
 ---
 
-### 🧪 (Opsional) Menggunakan Virtual Environment
+### (Opsional) Menggunakan Virtual Environment
 
 Disarankan menggunakan **virtual environment** agar instalasi library terisolasi dari sistem utama.
 
