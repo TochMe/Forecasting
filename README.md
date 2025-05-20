@@ -26,7 +26,6 @@ Jika perintah `streamlit` tidak dikenali, coba gunakan:
 ```bash
 python -m streamlit run app.py
 ```
-Bagus! Kamu bisa mencantumkan **dependensi (library)** yang digunakan di README dalam dua cara:
 
 ---
 
