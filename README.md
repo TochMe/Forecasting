@@ -27,31 +27,46 @@ Jika perintah `streamlit` tidak dikenali, coba gunakan:
 python -m streamlit run app.py
 ```
 
-Jika belum menginstall streamlit :
+Jika belum menginstall streamlit:
+---
+
 ### 🛠️ Instalasi Streamlit
 
 Pastikan Python sudah terpasang di komputer Anda. Jika belum, Anda bisa unduh dari [python.org](https://www.python.org/downloads/).
 
-Untuk meng-install **Streamlit**, jalankan perintah berikut di terminal atau command prompt:
+Untuk meng-install **Streamlit**, Anda bisa langsung menjalankan perintah berikut:
 
 ```bash
 pip install streamlit
 ```
-
-Jika menggunakan Visual Studio Code (VSC), Anda bisa membuka terminal di dalam VSC dan menjalankan perintah yang sama.
 
 ---
 
-Kalau kamu menggunakan virtual environment, bisa tambahkan juga seperti ini:
+### 🧪 (Opsional) Menggunakan Virtual Environment
+
+Disarankan menggunakan **virtual environment** agar instalasi library terisolasi dari sistem utama.
+
+Jalankan perintah berikut di folder project Anda (di terminal atau terminal VSC):
 
 ```bash
+# Membuat virtual environment
 python -m venv env
+
+# Mengaktifkan virtual environment
 env\Scripts\activate        # untuk Windows
 source env/bin/activate     # untuk Mac/Linux
 
+# Install streamlit di dalam virtual environment
 pip install streamlit
 ```
 
+Setelah aktif, jalankan project dengan:
+
+```bash
+streamlit run app.py
+```
+
+---
 
 
 📝 Catatan
