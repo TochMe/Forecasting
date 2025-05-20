@@ -26,7 +26,44 @@ Jika perintah `streamlit` tidak dikenali, coba gunakan:
 ```bash
 python -m streamlit run app.py
 ```
+Bagus! Kamu bisa mencantumkan **dependensi (library)** yang digunakan di README dalam dua cara:
 
+---
+
+### ✅ Cara 1: Tambahkan daftar dependensi di bagian README (manual)
+
+Tambahkan bagian seperti ini:
+
+---
+
+### 📦 Library yang Digunakan
+
+Project ini menggunakan beberapa library Python berikut:
+
+* `pandas`
+* `numpy`
+* `matplotlib`
+* `seaborn`
+* `plotly`
+* `statsmodels`
+* `pmdarima`
+* `prophet`
+* `scikit-learn`
+* `tensorflow`
+* `keras` *(melalui TensorFlow)*
+* `warnings` *(built-in Python)*
+
+**Untuk menginstalnya secara manual:**
+
+```bash
+pip install pandas numpy matplotlib seaborn plotly statsmodels pmdarima prophet scikit-learn tensorflow
+```
+
+**Untuk menginstal secara lansguns menggunakan requirements.txt**
+```bash
+pip install -r requirements.txt
+```
+--- 
 Jika belum menginstall streamlit:
 ---
 
