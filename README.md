@@ -52,7 +52,7 @@ Project ini menggunakan beberapa library Python berikut:
 pip install pandas numpy matplotlib seaborn plotly statsmodels pmdarima prophet scikit-learn tensorflow
 ```
 
-**Untuk menginstal secara lansguns menggunakan requirements.txt**
+**Untuk menginstal secara langsung menggunakan requirements.txt**
 ```bash
 pip install -r requirements.txt
 ```
